@@ -45,7 +45,7 @@ setInterval(() => {
   if (!data._readableState.reading) {
     sensors.update({ status: 0 }, { where: { id: 1 } });
   }
-}, 3000);
+}, 3600000);
 setInterval(() => {
   console.log(30);
 }, 3000);
